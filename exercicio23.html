@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 23</title>
+</head>
+<body>
+    <script>
+        let n1 = Number(prompt("Informe o primeiro número: "));
+        let n2 =  Number(prompt("Insira o segundo número: "));
+        let n3 = Number(prompt("Insira o terceiro número: "));
+        if (n1 > n2 && n1 > n3){
+            document.write("O maior valor é: " +n1);
+        } else if ( n2 > n1 && n2 > n3){
+            document.write("O maior valor é: " +n2);
+        } else if (n3 > n1 && n3 > n2){
+            document.write("O maior valor é: " +n3);
+        } else if (n2 == n1 && n1 > n3){
+            document.write("Os maiores valores são: " + n2 );
+        }  else if (n2 == n3 && n1 < n3){
+            document.write("Os maiores valores são: " + n2);
+        } else if (n3 == n1 && n1 > n2){
+            document.write("Os maiores valores são: " + n3);
+        } else 
+         document.write("Todos os números possuem o mesmo valor: " + n1);
+    </script>
+</body>
+</html>
