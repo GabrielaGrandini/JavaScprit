@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+</head>
+<body>
+    <script>
+        let texto = "Bem-vindo a loja de roupas!\n Informe as quantidades que você deseja adquirir... ";
+        console.log(texto);
+        alert(texto);
+        let pequena = Number(prompt("Camisetas pequenas: "));
+        let media = Number(prompt("Camisetas média: "));
+        let grande = Number(prompt("Camisetas grandes: "));
+        let pp = 10 * pequena;
+        let pm = 12 * media;
+        let pg = 15 * grande;
+        let total = pp + pm + pg;
+        alert("O total arrecadado foi: R$" + total.toFixed(2));
+    </script>
+</body>
+</html>
